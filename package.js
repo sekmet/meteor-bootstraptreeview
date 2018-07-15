@@ -8,6 +8,6 @@ Package.describe({
 
 Package.onUse((api) => {
   api.versionsFrom('1.4');
-  api.addFile('bootstrap-treeview.css', 'client');
+  api.addFiles('bootstrap-treeview.css', 'client');
   api.mainModule('bootstrap-treeview.js', 'client');
 });
